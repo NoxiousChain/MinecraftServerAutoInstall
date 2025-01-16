@@ -1,0 +1,51 @@
+# Minecraft Server Auto Setup Script
+
+This Python script automates the setup of a Minecraft server on your computer. It simplifies tasks like checking Java installation, downloading the server JAR, accepting the EULA, and creating a `run.bat` file for future use.
+
+---
+
+## Features
+
+- Checks if Java is installed (**requires Java 21 or higher**).
+- Prompts the user to allocate memory (RAM) for the server.
+- Downloads the Minecraft server JAR to a folder on your desktop.
+- Automatically accepts the EULA.
+- Creates a `run.bat` file for easy server startup.
+
+---
+
+## Prerequisites
+
+Before running this script, ensure the following are installed:
+
+1. **Python** (version 3.10 or higher)  
+   [Download Python - Windows]: ms-windows-store://pdp/?productid=9PJPW5LDXLZ5 (copy/paste link in address bar)  
+   [Download Python - Mac](https://www.python.org/downloads/)
+
+
+2. **Java** (version 21 or higher)  
+   [Download Java](https://www.oracle.com/java/technologies/javase-jdk21-downloads.html)
+
+---
+
+## Installation and Usage
+
+1. **Download the Script**  
+   Save the Python script to your local machine.
+
+2. **Move the Script**  
+   Move the script to your desktop for easier use.
+
+3. **Move to Script Location**  
+   Open a terminal or command prompt, navigate to the script's location (case sensitive):  
+
+   ```bash
+   cd Desktop
+
+4. **Run the Script**  
+   In the same terminal or command prompt, run the following (case sensitive):  
+
+   ```bash
+   cd Desktop
+
+   

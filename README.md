@@ -36,16 +36,27 @@ Before running this script, ensure the following are installed:
 2. **Move the Script**  
    Move the script to your desktop for easier use.
 
-3. **Move to Script Location**  
-   Open a terminal or command prompt, navigate to the script's location (case sensitive):  
+3. **Check python is installed**  
+   Open a terminal or command prompt, and type (case sensitive):  
+
+   ```bash
+   python -version
+
+4. **Install python requests**  
+   In the same terminal or command prompt, type (case sensitive):  
+
+   ```bash
+   pip install requests
+
+5. **Move to Script Location**  
+   In the same terminal or command prompt, navigate to the script's location by typing (case sensitive):  
 
    ```bash
    cd Desktop
 
-4. **Run the Script**  
-   In the same terminal or command prompt, run the following (case sensitive):  
+6. **Run the Script**  
+   In the same terminal or command prompt, run the following by typing (case sensitive):  
 
    ```bash
    python MinecraftServerAutoInstall.py
-
    

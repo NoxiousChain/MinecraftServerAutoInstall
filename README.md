@@ -46,6 +46,6 @@ Before running this script, ensure the following are installed:
    In the same terminal or command prompt, run the following (case sensitive):  
 
    ```bash
-   cd Desktop
+   python MinecraftServerAutoInstall.py
 
    

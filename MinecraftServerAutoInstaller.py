@@ -3,6 +3,7 @@ import subprocess
 import sys
 import urllib.request
 import requests
+import time
 
 # Define constants
 MINECRAFT_JAR = "server.jar"
@@ -11,6 +12,32 @@ DESKTOP_DIR = os.path.expanduser("~/Desktop")
 INSTALL_DIR = os.path.join(DESKTOP_DIR, "Minecraft Server")
 EULA_FILE = os.path.join(INSTALL_DIR, "eula.txt")
 SERVER_PROPERTIES_FILE = os.path.join(INSTALL_DIR, "server.properties")
+
+ascii_art1 = """
+ ██████╗██████╗ ███████╗ █████╗ ████████╗███████╗██████╗     ██████╗ ██╗   ██╗
+██╔════╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██╔════╝██╔══██╗    ██╔══██╗╚██╗ ██╔╝
+██║     ██████╔╝█████╗  ███████║   ██║   █████╗  ██║  ██║    ██████╔╝ ╚████╔╝ 
+██║     ██╔══██╗██╔══╝  ██╔══██║   ██║   ██╔══╝  ██║  ██║    ██╔══██╗  ╚██╔╝  
+╚██████╗██║  ██║███████╗██║  ██║   ██║   ███████╗██████╔╝    ██████╔╝   ██║   
+ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═════╝     ╚═════╝    ╚═╝   
+                                                                              
+"""
+
+ascii_art2 = """
+ _   _           _                 _____ _           _       
+| \ | |         (_)               /  __ \ |         (_)      
+|  \| | _____  ___  ___  _   _ ___| /  \/ |__   __ _ _ _ __  
+| . ` |/ _ \ \/ / |/ _ \| | | / __| |   | '_ \ / _` | | '_ \ 
+| |\  | (_) >  <| | (_) | |_| \__ \ \__/\ | | | (_| | | | | |
+\_| \_/\___/_/\_\_|\___/ \__,_|___/\____/_| |_|\__,_|_|_| |_|
+                                                             
+github.com/NoxiousChain
+"""
+
+print(ascii_art1)
+time.sleep(2)
+print(ascii_art2)
+time.sleep(2)
 
 # Function to check if Java is installed
 def check_java():

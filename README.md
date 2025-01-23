@@ -59,4 +59,15 @@ Before running this script, ensure the following are installed:
 
    ```bash
    python MinecraftServerAutoInstall.py
-   
+
+7. **In the Script**  
+   Once the server says "Done (xx.xxs)!", type stop (case sensitive, see below):  
+   ![Image 1](./images/Screenshot%202025-01-15%20204229.png)
+
+8. **In the Script PT.2**  
+   Once the server says "Done (xx.xxs)!", type stop (case sensitive, see below):  
+   ![Image 2](./images/Screenshot%202025-01-15%20204303.png)
+
+9. **In the Script PT.3**  
+   Once the server says "Done (xx.xxs)!", type stop (case sensitive, see below):  
+   ![Image 3](./images/Screenshot%202025-01-15%20204321.png)

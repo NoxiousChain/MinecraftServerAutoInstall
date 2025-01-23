@@ -62,11 +62,11 @@ Before running this script, ensure the following are installed:
 
 7. **In the Script**  
    Once the server says "Done (xx.xxs)!", type stop (case sensitive, see below): 
-    
+
    ![Image 1](./images/Screenshot%202025-01-15%20204229.png)
 
 8. **In the Script PT.2**  
-   Once the server says "Done (xx.xxs)!", type stop (case sensitive, see below):  
+   Once the server says "Done (xx.xxs)!", type stop (case sensitive, see below, **notice first line is different**):  
 
    ![Image 2](./images/Screenshot%202025-01-15%20204303.png)
 

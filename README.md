@@ -73,7 +73,7 @@ Before running this script, ensure the following are installed:
 9. **In the Script PT.3**  
    Once it says setup complete, the server files are offically setup with a run.bat file avaliable in the folder to start your server:
 
-   ![Image 3](./images/Screenshot%202025-01-15%20204321.png)
+   ![Image 3](./images/Screenshot%202025-01-23%20154713.png)
 
 10. **Finished**  
    A Minecraft Server folder will have been created on your desktop.
